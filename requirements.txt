@@ -4,3 +4,4 @@ gdown
 scikit-learn
 joblib
 pandas
+gunicorn
