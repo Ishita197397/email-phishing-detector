@@ -12,7 +12,7 @@ function App() {
     
     setLoading(true);
     try {
-      const response = await fetch('https://email-phishing-detector-3.onrender.com/predict/predict', {
+      const response = await fetch('https://email-phishing-detector-3.onrender.com/predict', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({ email }),
