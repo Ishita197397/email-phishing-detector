@@ -24,7 +24,7 @@ export default function PhishingDetector() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email_text: email }),
+        body: JSON.stringify({ email: email }),
       });
 
       if (!response.ok) {
