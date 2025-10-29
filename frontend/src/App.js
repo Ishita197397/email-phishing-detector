@@ -341,7 +341,6 @@ export default function PhishingDetector() {
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-1">Ishita</h3>
                 <p className="text-sm text-slate-300 mb-2">B.Tech CSE-AI, 2nd Year</p>
-                <p className="text-xs text-slate-400">Model Development & Training</p>
               </div>
 
               <div className="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 text-center hover:border-blue-500/40 transition-all">
@@ -350,7 +349,6 @@ export default function PhishingDetector() {
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-1">Advika Sharma</h3>
                 <p className="text-sm text-slate-300 mb-2">B.Tech CSE-AI, 2nd Year</p>
-                <p className="text-xs text-slate-400">Backend Development</p>
               </div>
 
               <div className="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 text-center hover:border-blue-500/40 transition-all">
@@ -359,7 +357,6 @@ export default function PhishingDetector() {
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-1">Ananya Kaushik</h3>
                 <p className="text-sm text-slate-300 mb-2">B.Tech CSE-AI, 2nd Year</p>
-                <p className="text-xs text-slate-400">Frontend Development</p>
               </div>
             </div>
 
