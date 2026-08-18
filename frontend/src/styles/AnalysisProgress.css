@@ -1,0 +1,91 @@
+.analysis-progress {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.terminal-panel {
+  background-color: var(--card);
+  border: 2px solid var(--accent-info);
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.15);
+}
+
+.terminal-header {
+  background-color: rgba(0, 212, 255, 0.03);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.terminal-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent-info);
+}
+
+.terminal-output {
+  padding: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.terminal-line {
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+.terminal-line:first-child {
+  color: var(--accent-info);
+  font-weight: 600;
+}
+
+.terminal-footer {
+  background-color: rgba(0, 255, 136, 0.03);
+  border-top: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-complete {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-safe);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .analysis-progress {
+    padding: 1rem;
+  }
+
+  .terminal-panel {
+    border-width: 1px;
+  }
+
+  .terminal-output {
+    padding: 1rem;
+    font-size: 0.75rem;
+    line-height: 1.6;
+    max-height: 300px;
+  }
+
+  .terminal-line {
+    margin-bottom: 0.25rem;
+  }
+}
